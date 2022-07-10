@@ -1,3 +1,7 @@
+print "Who are you? \n> "
+name = gets.chomp
+puts "Hello, #{name}!"
+
 puts "Tossing a coin..."
 
 results = (0..2).to_a.reduce([0, 0]){|result, count|
@@ -9,3 +13,4 @@ results = (0..2).to_a.reduce([0, 0]){|result, count|
 }
 
 puts "Heads: #{results[0]}, Tails: #{results[1]}"
+
