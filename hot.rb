@@ -9,3 +9,6 @@ results = (0..2).to_a.reduce([0, 0]){|result, count|
 }
 
 puts "Heads: #{results[0]}, Tails: #{results[1]}"
+
+puts "You #{results[0] > results[1] ? 'won!' : 'lost.'}"
+
